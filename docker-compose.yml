@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   web:
     build: ./app
@@ -20,9 +18,9 @@ services:
       - SQL_PORT=5432
       - DATABASE=postgres
       - USE_SPACES=TRUE
-      - AWS_ACCESS_KEY_ID=UPDATE_ME
-      - AWS_SECRET_ACCESS_KEY=UPDATE_ME
-      - AWS_STORAGE_BUCKET_NAME=UPDATE_ME
+      - AWS_ACCESS_KEY_ID=DO00A3M9MHMN7BWV9F7B
+      - AWS_SECRET_ACCESS_KEY=uwd4IYehQ9ftlZxmfTBy7pd5GDEIkUQqYPWtoNF0DcU
+      - AWS_STORAGE_BUCKET_NAME=jtd-bucket2
     depends_on:
       - db
   db:
